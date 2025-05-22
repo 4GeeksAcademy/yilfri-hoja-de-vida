@@ -1,0 +1,70 @@
+header {
+    margin: 20px 0;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: block;
+    width: 600px;
+    margin: auto;
+}
+
+.container {
+    background-color: rgb(231, 231, 231);
+    width: 100%;
+    margin-top: 10px;
+    padding: 40px 0;
+}
+
+.card {
+    display: block;
+    width: 600px;
+    margin: 30px auto;
+    background: white;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.card-title {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer
+}
+
+.card-title h3 {
+    display: inline-block;
+    margin: 10px 0;
+}
+
+.card-date{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(100, 100, 100);
+}
+.card-date p {
+    font-weight: 500;
+    font-family: system-ui;
+    color: rgba(100, 100, 100, 0.623);
+}
+
+.card-img img{
+    width: 100%;
+}
+
+.card-footer {
+    font-family: Arial, sans-serif;
+}
+
+.card-footer p {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.card-footer strong {
+    cursor: pointer
+}
